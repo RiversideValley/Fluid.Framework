@@ -1,12 +1,12 @@
 {
-	"name": "fluent-svelte",
+	"name": "fluid",
 	"version": "1.6.0",
-	"description": "A faithful implementation of Microsoft's Fluent Design System in Svelte.",
-	"homepage": "https://github.com/tropix126/fluent-svelte",
+	"description": "A UI framework for web based on Microsoft Fluent UI 🎨🏗️",
+	"homepage": "https://github.com/RiversideValley/Fluid.Framework",
 	"license": "MIT",
 	"author": {
-		"name": "tropix126",
-		"url": "https://github.com/tropix126/"
+		"name": "RiversideValley",
+		"url": "https://github.com/RiversideValley/"
 	},
 	"keywords": [
 		"design",
@@ -28,10 +28,10 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/tropix126/fluent-svelte.git"
+		"url": "https://github.com/RiversideValley/Fluid.Framework.git"
 	},
 	"bugs": {
-		"url": "https://github.com/tropix126/fluent-svelte/issues"
+		"url": "https://github.com/RiversideValley/Fluid.Framework/issues"
 	},
 	"scripts": {
 		"dev": "svelte-kit dev",
