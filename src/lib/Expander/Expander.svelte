@@ -49,7 +49,7 @@
 
 <!--
 @component
-Expanders are controls that display a header and a collapsable content area. The content area can be expanded clicking on the header. [Docs](https://fluent-svelte.vercel.app/docs/components/expander)
+Expanders are controls that display a header and a collapsable content area. The content area can be expanded clicking on the header. [Docs](https://fluidui.vercel.app/docs/components/expander)
 - Usage:
     ```tsx
     <Expander>

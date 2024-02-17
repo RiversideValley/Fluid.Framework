@@ -49,7 +49,7 @@ If you need to include HTML content into the message, you can also just use the 
 </script>
 
 <InfoBar>
-	Visit <a href="https://fluent-svelte.vercel.app">Fluent Svelte</a> for some neat fluent design components!
+	Visit <a href="https://fluidui.vercel.app">Fluent Svelte</a> for some neat fluent design components!
 </InfoBar>
 ```
 

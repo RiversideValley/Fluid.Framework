@@ -194,7 +194,7 @@
 
 <!--
 @component
-A slider is a control that lets the user select from a range of values by moving a thumb control along a track. [Docs](https://fluent-svelte.vercel.app/docs/components/slider)
+A slider is a control that lets the user select from a range of values by moving a thumb control along a track. [Docs](https://fluidui.vercel.app/docs/components/slider)
 - Usage:
     ```tsx
     <Slider bind:value min={-100} max={100} step={10} ticks={[-50, 0, 50]} />
