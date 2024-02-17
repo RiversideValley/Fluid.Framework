@@ -7,10 +7,6 @@
 		position: relative;
 		min-block-size: 596px;
 		text-align: center;
-		background: url("/bloom-mica-light.png") fill/170% no-repeat;
-		@media (prefers-color-scheme: dark) {
-			background-image: url("/bloom-mica-dark.png");
-		}
 		> .page-section-inner {
 			@include flex($direction: column, $align: center);
 			position: relative;
