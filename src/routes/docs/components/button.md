@@ -8,7 +8,7 @@
 A button gives the user a way to trigger an immediate action. Some buttons are specialized for particular tasks, such as navigation, repeated actions, or presenting menus.
 
 ```ts
-import { Button } from "fluent-svelte";
+import { Button } from "@riversidevalley/fluid";
 ```
 
 <Showcase columns={3} repl="0c6ca42e2c5c4868a7a8c1a1a45759eb">

@@ -8,7 +8,7 @@
 The toggle switch represents a physical switch that allows users to turn things on or off, like a light switch. Use toggle switch controls to present users with two mutually exclusive options (such as on/off), where choosing an option provides immediate results.
 
 ```ts
-import { ToggleSwitch } from "fluent-svelte";
+import { ToggleSwitch } from "@riversidevalley/fluid";
 ```
 
 <Showcase columns={2} repl="4b7217ee24294302937ec6c69db1bbc0">
@@ -28,7 +28,7 @@ You can programmatically control if the ToggleSwitch is in it's checked state by
 
 ```svelte example hideScript
 <script>
-	import { ToggleSwitch } from "fluent-svelte";
+	import { ToggleSwitch } from "@riversidevalley/fluid";
 </script>
 
 <ToggleSwitch checked />
@@ -38,7 +38,7 @@ Additionally, you can use svelte's two-way binding syntax to bind the checked st
 
 ```svelte example
 <script>
-	import { ToggleSwitch } from "fluent-svelte";
+	import { ToggleSwitch } from "@riversidevalley/fluid";
 
 	let checked = false;
 </script>
@@ -54,7 +54,7 @@ Passing in content to the ToggleSwitch's slot will cause that content to be rend
 
 ```svelte example hideScript
 <script>
-	import { ToggleSwitch } from "fluent-svelte";
+	import { ToggleSwitch } from "@riversidevalley/fluid";
 </script>
 
 <ToggleSwitch>I have a label!</ToggleSwitch>

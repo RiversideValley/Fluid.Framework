@@ -8,7 +8,7 @@
 Checkboxes represent a control that a user can select (check) or clear (uncheck). A Checkbox can also report its value as indeterminate.
 
 ```ts
-import { Checkbox } from "fluent-svelte";
+import { Checkbox } from "@riversidevalley/fluid";
 ```
 
 <Showcase columns={3} repl="f749a248f8924ea3a90db238cc2c2415">
@@ -30,7 +30,7 @@ You can programmatically control if the checkbox is in it's checked state by set
 
 ```svelte example hideScript
 <script>
-	import { Checkbox } from "fluent-svelte";
+	import { Checkbox } from "@riversidevalley/fluid";
 </script>
 
 <Checkbox checked />
@@ -40,7 +40,7 @@ Additionally, you can use svelte's two-way binding syntax to bind the checked st
 
 ```svelte example
 <script>
-	import { Checkbox } from "fluent-svelte";
+	import { Checkbox } from "@riversidevalley/fluid";
 
 	let checked = false;
 </script>
@@ -56,7 +56,7 @@ If the checkbox cannot be represented as either checked or unchecked, it can be 
 
 ```svelte example hideScript
 <script>
-	import { Checkbox } from "fluent-svelte";
+	import { Checkbox } from "@riversidevalley/fluid";
 </script>
 
 <Checkbox indeterminate />
@@ -68,7 +68,7 @@ Passing in content to the checkbox's slot will cause that content to be rendered
 
 ```svelte example hideScript
 <script>
-	import { Checkbox } from "fluent-svelte";
+	import { Checkbox } from "@riversidevalley/fluid";
 </script>
 
 <Checkbox>I have a label!</Checkbox>

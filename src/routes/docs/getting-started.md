@@ -3,7 +3,7 @@
     import { CopyBox } from "$site/lib";
 </script>
 
-This page will guide you through the process of adding fluent-svelte to your existing Svelte project. If you don't have a Svelte or SvelteKit project already, you can create one using [this guide](https://svelte.dev/blog/the-easiest-way-to-get-started).
+This page will guide you through the process of adding Fluid to your existing Svelte project. If you don't have a Svelte or SvelteKit project already, you can create one using [this guide](https://svelte.dev/blog/the-easiest-way-to-get-started).
 
 <InfoBar severity="attention" title="Before We Start" message="This tutorial assumes you have basic knowledge of Svelte.">
     <Button slot="action" variant="accent">
@@ -13,21 +13,21 @@ This page will guide you through the process of adding fluent-svelte to your exi
 
 ### Step 1: Install the Library
 
-This will install fluent-svelte and it's required dependencies. This can be done using a package manager of your choice.
+This will install Fluid and it's required dependencies. This can be done using a package manager of your choice.
 
 <label>
     npm
-    <CopyBox value="npm i --save-dev fluent-svelte" />
+    <CopyBox value="npm i --save-dev @riversidevalley/fluid" />
 </label>
 
 <label>
     pnpm
-    <CopyBox value="pnpm i --save-dev fluent-svelte" />
+    <CopyBox value="pnpm i --save-dev @riversidevalley/fluid" />
 </label>
 
 <label>
     yarn
-    <CopyBox value="yarn add --dev fluent-svelte" />
+    <CopyBox value="yarn add --dev @riversidevalley/fluid" />
 </label>
 
 ### Step 2: Add Theme File
@@ -38,7 +38,7 @@ Fluent Svelte components use a set of common resources to style their elements. 
 
 ```svelte
 <script>
-	import "fluent-svelte/theme.css";
+	import "@riversidevalley/fluid/theme.css";
 </script>
 ```
 
@@ -50,8 +50,8 @@ Alternatively, you can import the theme file from a CDN (though this generally i
 
 ```svelte
 <style>
-	@import url("https://unpkg.com/fluent-svelte/theme.css");
-	/* ...or @import url("https://cdn.jsdelivr.net/npm/fluent-svelte/theme.css"); */
+	@import url("https://unpkg.com/@riversidevalley/fluid/theme.css");
+	/* ...or @import url("https://cdn.jsdelivr.net/npm/@riversidevalley/fluid/theme.css"); */
 </style>
 ```
 
@@ -61,7 +61,7 @@ Components are exported from a single index file in the library. They can be imp
 
 ```svelte example
 <script>
-	import { Button, Checkbox } from "fluent-svelte";
+	import { Button, Checkbox } from "@riversidevalley/fluid";
 </script>
 
 <Button>Click me!</Button>
@@ -72,7 +72,7 @@ Alternatively you can import under a namespace:
 
 ```svelte
 <script>
-	import * as Fluent from "fluent-svelte";
+	import * as Fluent from "@riversidevalley/fluid";
 </script>
 
 <Fluent.Button>Click me!</Fluent.Button>
@@ -81,19 +81,19 @@ Alternatively you can import under a namespace:
 
 ### Svelte REPL Usage
 
-`fluent-svelte` components can also be imported into the [Svelte REPL](https://svelte.dev/repl/).
+`@riversidevalley/fluid` components can also be imported into the [Svelte REPL](https://svelte.dev/repl/).
 
 In the REPL, packages are automatically installed by name when using an `import` statement, so the installation step can be skipped. Because the REPL doesn't support importing CSS in `node_modules`, we'll need to import the theme file through a CDN.
 
 ```svelte
 <script>
-	import { Button, Checkbox } from "fluent-svelte";
+	import { Button, Checkbox } from "@riversidevalley/fluid";
 </script>
 
 <button>Click me!</button>
 
 <style>
-	@import url("https://unpkg.com/fluent-svelte/theme.css");
+	@import url("https://unpkg.com/@riversidevalley/fluid/theme.css");
 
 	/* Some base styles to get things looking right. */
 	:global(body) {

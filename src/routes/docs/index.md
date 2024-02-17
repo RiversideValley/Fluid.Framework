@@ -6,7 +6,7 @@ Welcome to the Fluent Svelte documentation! This page will explain the basic con
 
 ### What is this?
 
-`fluent-svelte` is a [Svelte](http://svelte.dev/) component UI library that emulates the look and feel of [Microsoft's Windows UI Controls](https://github.com/microsoft/microsoft-ui-xaml/) which conform to the Fluent Design System.
+`@riversidevalley/fluid` is a [Svelte](http://svelte.dev/) component UI library that emulates the look and feel of [Microsoft's Windows UI Controls](https://github.com/microsoft/microsoft-ui-xaml/) which conform to the Fluent Design System.
 
 <InfoBar
     severity="caution"

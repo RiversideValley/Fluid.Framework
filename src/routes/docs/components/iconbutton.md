@@ -10,7 +10,7 @@
 An Icon Button is a clickable control that triggers an immediate action. Unlike the [Button](button) control, it serves the purpose of encapsulating an icon glyph as it's content.
 
 ```ts
-import { IconButton } from "fluent-svelte";
+import { IconButton } from "@riversidevalley/fluid";
 ```
 
 <Showcase columns={2} repl="89b152e7c33047768b6c242eb2a6afcb">

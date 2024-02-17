@@ -33,7 +33,7 @@ Radio buttons, also called option buttons, let users select one option from a co
 - Usage:
     ```tsx
     <script>
-        import { RadioButton } from "fluent-svelte";
+        import { RadioButton } from "@riversidevalley/fluid";
 
         let flavor = "chocolate";
     </script>

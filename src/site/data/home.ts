@@ -1,6 +1,6 @@
 export const homeExampleSrc = `<script>
-	import { Button, TextBlock } from "fluent-svelte";
-	import "fluent-svelte/theme.css";
+	import { Button, TextBlock } from "@riversidevalley/fluid";
+	import "@riversidevalley/fluid/theme.css";
 
 	let count = 0;
 </script>

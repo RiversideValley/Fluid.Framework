@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { NavigationView, TextBlock } from "fluent-svelte";
+	import { NavigationView, TextBlock } from "@riversidevalley/fluid";
 </script>
 
 <NavigationView>

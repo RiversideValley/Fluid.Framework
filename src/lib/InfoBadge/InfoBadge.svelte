@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { createEventForwarder } from "fluent-svelte/internal";
+	import { createEventForwarder } from "@riversidevalley/fluid/internal";
 	import { get_current_component } from "svelte/internal";
 
 	/** Indicates the severity color of the badge. */

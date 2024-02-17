@@ -8,7 +8,7 @@
 The TextBox control lets a user type text into an app. The text displays on the screen in a simple, plaintext format on a single line. It additionally comes with a set of buttons which allow users to perform specialized actions on the text, such as showing a password or clearing the TextBox's contents.
 
 ```ts
-import { TextBox } from "fluent-svelte";
+import { TextBox } from "@riversidevalley/fluid";
 ```
 
 <Showcase columns={2} repl="65b817e67ff3450da0c5755b5fdac9f7">
@@ -36,7 +36,7 @@ Additionally, you can use svelte's two-way binding syntax to bind the value to a
 
 ```svelte example
 <script>
-	import { TextBox } from "fluent-svelte";
+	import { TextBox } from "@riversidevalley/fluid";
 
 	let value = "Default value";
 </script>
@@ -67,7 +67,7 @@ TextBox supports a `placeholder` property that will be displayed as text in lowe
 
 ```svelte example hideScript
 <script>
-	import { TextBox } from "fluent-svelte";
+	import { TextBox } from "@riversidevalley/fluid";
 </script>
 
 <TextBox placeholder="Send a message" />
@@ -83,7 +83,7 @@ Along with the builtin action buttons, you can also add your own buttons to the 
 
 ```svelte example hideScript
 <script>
-	import { TextBox, TextBoxButton } from "fluent-svelte";
+	import { TextBox, TextBoxButton } from "@riversidevalley/fluid";
 </script>
 
 <TextBox placeholder="Custom buttons!">
@@ -112,7 +112,7 @@ There are two methods to (completely) restrict manual input on a TextBox: the `d
 
 ```svelte example hideScript
 <script>
-	import { TextBox } from "fluent-svelte";
+	import { TextBox } from "@riversidevalley/fluid";
 </script>
 
 <TextBox placeholder="disabled TextBox" disabled />
