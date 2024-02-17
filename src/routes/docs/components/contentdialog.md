@@ -16,7 +16,7 @@
 Dialog controls are modal UI overlays that provide contextual app information. They block interactions with the app window until being explicitly dismissed. They often request some kind of action from the user.
 
 ```ts
-import { ContentDialog } from "fluent-svelte";
+import { ContentDialog } from "@riversidevalley/fluid";
 ```
 
 <Showcase style="block-size: 360px;" repl="0fde4983fdc841d8b7320143ee3d50d7">
@@ -50,7 +50,7 @@ If you wish to control a dialog opening from a trigger button, you can two-way b
 
 ```svelte example
 <script>
-	import { ContentDialog, Button } from "fluent-svelte";
+	import { ContentDialog, Button } from "@riversidevalley/fluid";
 
 	let open = false;
 </script>
@@ -83,7 +83,7 @@ You can use the `footer` slot to insert various actions at the bottom of the dia
 
 ```svelte
 <script>
-	import { ContentDialog, Button } from "fluent-svelte";
+	import { ContentDialog, Button } from "@riversidevalley/fluid";
 
 	let open = true;
 </script>

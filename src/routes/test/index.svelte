@@ -71,7 +71,7 @@
 <div style="height: 56px;" />
 
 <PageSection>
-	<h2>fluent-svelte test page</h2>
+	<h2>Fluid test page</h2>
 	<p>Made with <a href="https://kit.svelte.dev">SvelteKit</a></p>
 
 	<h3>Buttons</h3>

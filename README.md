@@ -21,8 +21,8 @@
 
 ### 📦 Node Package Manager
 
-<a title="NPM" href="https://npmjs.org">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/1024px-Npm-logo.svg.png" width="144" height="72" alt="Release" />
+<a title="NPM" href="https://npmjs.org/package/@riversidevalley/fluid">
+  Download it from NPM
 </a>
 
 ### 😺 GitHub

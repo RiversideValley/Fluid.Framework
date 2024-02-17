@@ -8,7 +8,7 @@
 The InfoBar control is for displaying app-wide status messages to users that are highly visible yet non-intrusive. There are built-in security levels to easily indicate the type of message shown as well as the option to include your own call to action or hyperlink button.
 
 ```ts
-import { InfoBar } from "fluent-svelte";
+import { InfoBar } from "@riversidevalley/fluid";
 ```
 
 <Showcase repl="789be6a7b377455aab6f44e123885423" columns={2}>
@@ -35,7 +35,7 @@ There are two areas of text that can be customized - the title and the message. 
 
 ```svelte example hideScript
 <script>
-	import { InfoBar } from "fluent-svelte";
+	import { InfoBar } from "@riversidevalley/fluid";
 </script>
 
 <InfoBar title="Title" message="Message" />
@@ -45,11 +45,11 @@ If you need to include HTML content into the message, you can also just use the 
 
 ```svelte example hideScript
 <script>
-	import { InfoBar } from "fluent-svelte";
+	import { InfoBar } from "@riversidevalley/fluid";
 </script>
 
 <InfoBar>
-	Visit <a href="https://fluent-svelte.vercel.app">Fluent Svelte</a> for some neat fluent design components!
+	Visit <a href="https://fluidui.vercel.app">Fluent Svelte</a> for some neat fluent design components!
 </InfoBar>
 ```
 
@@ -71,7 +71,7 @@ An action button can be passed in using the `action` slot. It's recommended that
 
 ```svelte example hideScript
 <script>
-	import { InfoBar, Button } from "fluent-svelte";
+	import { InfoBar, Button } from "@riversidevalley/fluid";
 </script>
 
 <InfoBar title="Title" message="Message">
@@ -85,7 +85,7 @@ InfoBars by default are `open`. This means that they are rendered into the DOM. 
 
 ```svelte example
 <script>
-	import { InfoBar, Button } from "fluent-svelte";
+	import { InfoBar, Button } from "@riversidevalley/fluid";
 
 	let open = false;
 </script>

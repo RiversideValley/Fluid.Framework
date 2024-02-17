@@ -8,7 +8,7 @@
 The person picture control displays the avatar image for a person, if one is available; if not, it displays the person's initials or a generic glyph. You can additionally insert your own badge at the top of the picture, and provide your own inner content.
 
 ```ts
-import { PersonPicture } from "fluent-svelte";
+import { PersonPicture } from "@riversidevalley/fluid";
 ```
 
 <Showcase repl="46c25d4df2414602878cb7a1d7d47194" columns={4}>
@@ -41,7 +41,7 @@ Similarly to HTML's [`<img />`](https://developer.mozilla.org/en-US/docs/Web/HTM
 
 ```svelte example hideScript
 <script>
-	import { PersonPicture } from "fluent-svelte";
+	import { PersonPicture } from "@riversidevalley/fluid";
 </script>
 
 <PersonPicture src="https://source.unsplash.com/random" />
@@ -51,7 +51,7 @@ It's recommended for both accessibility and fallback purposes that you provide a
 
 ```svelte example hideScript
 <script>
-	import { PersonPicture } from "fluent-svelte";
+	import { PersonPicture } from "@riversidevalley/fluid";
 </script>
 
 <PersonPicture
@@ -64,7 +64,7 @@ Additionally, if `src` is invalid and no slot text is inserted, the alt text wil
 
 ```svelte example hideScript
 <script>
-	import { PersonPicture } from "fluent-svelte";
+	import { PersonPicture } from "@riversidevalley/fluid";
 </script>
 
 <PersonPicture src="not-a-real-domain" alt="John Smith" />
@@ -80,7 +80,7 @@ If no `src` is provided, you can provide your own text to be displayed in the co
 
 ```svelte example hideScript
 <script>
-	import { PersonPicture } from "fluent-svelte";
+	import { PersonPicture } from "@riversidevalley/fluid";
 </script>
 
 <div style="display: flex; gap: 12px;">
@@ -95,7 +95,7 @@ You can use the component's `badge` slot to insert an offset element at the top 
 
 ```svelte example
 <script>
-	import { InfoBadge, PersonPicture } from "fluent-svelte";
+	import { InfoBadge, PersonPicture } from "@riversidevalley/fluid";
 
 	let messages = 4;
 </script>
@@ -111,7 +111,7 @@ You can control the dimensions of the picture in pixels by setting the `size` pr
 
 ```svelte example hideScript
 <script>
-	import { PersonPicture } from "fluent-svelte";
+	import { PersonPicture } from "@riversidevalley/fluid";
 </script>
 
 <PersonPicture size={8} />

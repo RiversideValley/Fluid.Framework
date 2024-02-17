@@ -10,7 +10,7 @@
 Radio buttons, also called option buttons, let users select one option from a collection of two or more mutually exclusive, but related, options. The singular behavior of a RadioButtons group distinguishes it from check boxes, which support multi-selection and deselection, or clearing.
 
 ```ts
-import { RadioButton } from "fluent-svelte";
+import { RadioButton } from "@riversidevalley/fluid";
 ```
 
 <Showcase columns={3} repl="b3c4c774b4b84f948a8a6747e5cf7226">
@@ -32,7 +32,7 @@ Passing in content to the RadioButton's slot will cause that content to be rende
 
 ```svelte example hideScript
 <script>
-	import { RadioButton } from "fluent-svelte";
+	import { RadioButton } from "@riversidevalley/fluid";
 </script>
 
 <RadioButton>I have a label!</RadioButton>
@@ -47,7 +47,7 @@ The `value` property is used to determine the piece of data that is associated w
 
 ```svelte example hideScript
 <script>
-	import { RadioButton } from "fluent-svelte";
+	import { RadioButton } from "@riversidevalley/fluid";
 </script>
 
 <RadioButton value={1}>Option 1</RadioButton>
@@ -59,7 +59,7 @@ Radio Buttons can be grouped together as a mutually-exclusive list of options us
 
 ```svelte example
 <script>
-	import { RadioButton } from "fluent-svelte";
+	import { RadioButton } from "@riversidevalley/fluid";
 
 	let flavor = "chocolate";
 </script>
@@ -77,7 +77,7 @@ If `group` is not set, you also have access to a `checked` property that allows 
 
 ```svelte example hideScript
 <script>
-	import { RadioButton } from "fluent-svelte";
+	import { RadioButton } from "@riversidevalley/fluid";
 </script>
 
 <RadioButton checked>I am checked by default.</RadioButton>

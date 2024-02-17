@@ -17,7 +17,7 @@
 Flyouts represent a control that displays lightweight UI that is either information, or requires user interaction. Unlike a [ContentDialog](contentdialog), a Flyout can be dismissed by clicking or tapping outside of it, or pressing the <kbd>Esc</kbd> key.
 
 ```ts
-import { Flyout } from "fluent-svelte";
+import { Flyout } from "@riversidevalley/fluid";
 ```
 
 <Showcase repl="f884a63a8b3349e38c783e86aa4f4d17">
@@ -35,7 +35,7 @@ import { Flyout } from "fluent-svelte";
 
 ```svelte example hideScript
 <script>
-	import { Flyout, Button } from "fluent-svelte";
+	import { Flyout, Button } from "@riversidevalley/fluid";
 </script>
 
 <Flyout>
@@ -60,7 +60,7 @@ You can also use Svelte's two-way binding syntax to programatically open/close a
 
 ```svelte example
 <script>
-	import { Flyout, Button } from "fluent-svelte";
+	import { Flyout, Button } from "@riversidevalley/fluid";
 
 	let open = false;
 </script>
@@ -91,7 +91,7 @@ For more niche use cases, you can completely override the flyout element with yo
 
 ```svelte example hideScript
 <script>
-	import { Flyout, Button } from "fluent-svelte";
+	import { Flyout, Button } from "@riversidevalley/fluid";
 </script>
 
 <Flyout>

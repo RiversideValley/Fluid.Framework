@@ -21,7 +21,7 @@
 
 <!--
 @component
-An Icon Button is a clickable control that triggers an immediate action. Unlike the Button control, it serves the purpose of encapsulating an icon glyph as it’s content. [Docs](https://fluent-svelte.vercel.app/docs/components/iconbutton)
+An Icon Button is a clickable control that triggers an immediate action. Unlike the Button control, it serves the purpose of encapsulating an icon glyph as it’s content. [Docs](https://fluidui.vercel.app/docs/components/iconbutton)
 - Usage:
     ```tsx
     <IconButton>

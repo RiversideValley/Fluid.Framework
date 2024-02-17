@@ -29,11 +29,11 @@
 
 <!--
 @component
-Radio buttons, also called option buttons, let users select one option from a collection of two or more mutually exclusive, but related, options. The singular behavior of a RadioButtons group distinguishes it from check boxes, which support multi-selection and deselection, or clearing. [Docs](https://fluent-svelte.vercel.app/docs/components/radiobutton)
+Radio buttons, also called option buttons, let users select one option from a collection of two or more mutually exclusive, but related, options. The singular behavior of a RadioButtons group distinguishes it from check boxes, which support multi-selection and deselection, or clearing. [Docs](https://fluidui.vercel.app/docs/components/radiobutton)
 - Usage:
     ```tsx
     <script>
-        import { RadioButton } from "fluent-svelte";
+        import { RadioButton } from "@riversidevalley/fluid";
 
         let flavor = "chocolate";
     </script>

@@ -10,7 +10,7 @@
 Expanders are controls that display a header and a collapsable content area. The content area can be expanded clicking on the header.
 
 ```ts
-import { Expander } from "fluent-svelte";
+import { Expander } from "@riversidevalley/fluid";
 ```
 
 <Showcase style="block-size: 360px;" repl="78aa3269aba34022a958311963520428">
@@ -43,7 +43,7 @@ A basic expander expects a header and contents. The expander's default slot will
 
 ```svelte example
 <script>
-	import { Expander } from "fluent-svelte";
+	import { Expander } from "@riversidevalley/fluid";
 </script>
 
 <Expander>
@@ -58,7 +58,7 @@ Expanders can be either expanded or collapsed. This can be controlled by setting
 
 ```svelte example
 <script>
-	import { Expander } from "fluent-svelte";
+	import { Expander } from "@riversidevalley/fluid";
 </script>
 
 <Expander expanded>
@@ -75,7 +75,7 @@ An expander doesn't have to expand downwards. You can control an expander's expa
 
 ```svelte example
 <script>
-	import { Expander } from "fluent-svelte";
+	import { Expander } from "@riversidevalley/fluid";
 </script>
 
 <Expander direction="up">
@@ -92,7 +92,7 @@ You can easily add an icon to an expander's header using the `icon` slot. Passin
 
 ```svelte example hideScript
 <script>
-	import { Expander } from "fluent-svelte";
+	import { Expander } from "@riversidevalley/fluid";
 </script>
 
 <Expander>

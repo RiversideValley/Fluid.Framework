@@ -10,7 +10,7 @@
 List Items display data stacked vertically in a single column. List Items work better for items that have text as a focal point, and for collections that are meant to be read top to bottom (i.e. alphabetically ordered). A few common use cases for List Items include lists of messages and search results.
 
 ```ts
-import { ListItem } from "fluent-svelte";
+import { ListItem } from "@riversidevalley/fluid";
 ```
 
 <Showcase repl="">
@@ -37,7 +37,7 @@ An item can be marked as _selected_ to indicate that it a currently active optio
 
 ```svelte example hideScript
 <script>
-	import { ListItem } from "fluent-svelte";
+	import { ListItem } from "@riversidevalley/fluid";
 </script>
 
 <ListItem selected>Text</ListItem>
@@ -51,7 +51,7 @@ If the item is not meant to be clicked, you can use the `disabled` property to v
 
 ```svelte example hideScript
 <script>
-	import { ListItem } from "fluent-svelte";
+	import { ListItem } from "@riversidevalley/fluid";
 </script>
 
 <ListItem disabled>Text</ListItem>
@@ -63,7 +63,7 @@ You can easily add an icon to an item using the `icon` slot. Passing in an SVG e
 
 ```svelte example hideScript
 <script>
-	import { ListItem } from "fluent-svelte";
+	import { ListItem } from "@riversidevalley/fluid";
 </script>
 
 <ListItem>

@@ -10,8 +10,8 @@
 	let exampleCount = 0;
 
 	const example = `<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
-    <span class="token keyword">import</span> <span class="token punctuation">{</span> Button<span class="token punctuation">,</span> TextBlock <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">"fluent-svelte"</span><span class="token punctuation">;</span>
-    <span class="token keyword">import</span> <span class="token string">"fluent-svelte/theme.css"</span><span class="token punctuation">;</span>
+    <span class="token keyword">import</span> <span class="token punctuation">{</span> Button<span class="token punctuation">,</span> TextBlock <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">"@riversidevalley/fluid"</span><span class="token punctuation">;</span>
+    <span class="token keyword">import</span> <span class="token string">"@riversidevalley/fluid/theme.css"</span><span class="token punctuation">;</span>
 
     <span class="token keyword">let</span> count <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
 </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
@@ -24,18 +24,18 @@
 </script>
 
 <Metadata
-	title="Fluent Svelte"
-	description="A faithful implementation of Microsoft's Fluent Design System in Svelte."
+	title="Fluid"
+	description="A UI framework for web based on Microsoft Fluent UI 🎨🏗️"
 />
 
 <PageSection id="hero-section">
 	<div class="hero-contents">
-		<h1>Fluent Svelte</h1>
-		<p>A faithful implementation of Microsoft's Fluent Design System in Svelte.</p>
+		<h1>Fluid Framework</h1>
+		<p>A UI framework for web based on Microsoft Fluent UI 🎨🏗️</p>
 		<div class="buttons-spacer">
 			<Button variant="accent" href="/docs">Get Started</Button>
 			<Button
-				href="https://github.com/tropix126/fluent-svelte"
+				href="https://github.com/RiversideValley/Fluid.Framework"
 				target="_blank"
 				rel="noreferrer noopener">Source Code</Button
 			>
@@ -47,7 +47,7 @@
 			<svelte:fragment slot="header">
 				<TextBlock variant="bodyStrong">1. Install</TextBlock>
 				<IconButton
-					href="https://npmjs.com/package/fluent-svelte"
+					href="https://npmjs.com/package/@riversidevalley/fluid"
 					target="_blank"
 					rel="noreferrer noopener"
 				>
@@ -56,13 +56,13 @@
 			</svelte:fragment>
 
 			<TextBlock>npm</TextBlock>
-			<CopyBox value="npm i --save-dev fluent-svelte" />
+			<CopyBox value="npm i --save-dev @riversidevalley/fluid" />
 
 			<TextBlock>using pnpm</TextBlock>
-			<CopyBox value="pnpm i --save-dev fluent-svelte" />
+			<CopyBox value="pnpm i --save-dev @riversidevalley/fluid" />
 
 			<TextBlock>...or with yarn</TextBlock>
-			<CopyBox value="yarn add --dev fluent-svelte" />
+			<CopyBox value="yarn add --dev @riversidevalley/fluid" />
 
 			<Button variant="accent">Learn More</Button>
 		</HeroCard>

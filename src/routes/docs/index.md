@@ -6,7 +6,7 @@ Welcome to the Fluent Svelte documentation! This page will explain the basic con
 
 ### What is this?
 
-`fluent-svelte` is a [Svelte](http://svelte.dev/) component UI library that emulates the look and feel of [Microsoft's Windows UI Controls](https://github.com/microsoft/microsoft-ui-xaml/) which conform to the Fluent Design System.
+`@riversidevalley/fluid` is a [Svelte](http://svelte.dev/) component UI library that emulates the look and feel of [Microsoft's Windows UI Controls](https://github.com/microsoft/microsoft-ui-xaml/) which conform to the Fluent Design System.
 
 <InfoBar
     severity="caution"
@@ -28,10 +28,10 @@ Welcome to the Fluent Svelte documentation! This page will explain the basic con
 
 ### Undocumented Components
 
-This documentation site is still not entirely finished. Many components exported in the library are not yet documented. That progress can be tracked [here](https://github.com/Tropix126/fluent-svelte/issues/13). For now, i've setup a testing page with every component included in the library that is viewable [here](https://fluent-svelte.vercel.app/test). It's source can be viewed [here](https://github.com/Tropix126/fluent-svelte/blob/main/src/routes/test/index.svelte).
+This documentation site is still not entirely finished. Many components exported in the library are not yet documented. That progress can be tracked [here](https://github.com/RiversideValley/Fluid.Framework/issues/13). For now, i've setup a testing page with every component included in the library that is viewable [here](https://fluidui.vercel.app/test). It's source can be viewed [here](https://github.com/RiversideValley/Fluid.Framework/blob/main/src/routes/test/index.svelte).
 
 Please keep in mind that any undocumented component is _considered to be in the 0.x phase of development_. This means that they could potentially recieve breaking API changes or be heavily updated before being finalized.
 
 ### Changelog
 
-See [CHANGELOG.md](https://github.com/Tropix126/fluent-svelte/blob/main/CHANGELOG.md).
+See [CHANGELOG.md](https://github.com/RiversideValley/Fluid.Framework/blob/main/CHANGELOG.md).

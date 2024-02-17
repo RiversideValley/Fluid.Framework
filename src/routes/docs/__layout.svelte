@@ -100,7 +100,7 @@
 			<header>
 				<h1 id={currentPage?.name}>{currentPage?.name}</h1>
 				<Button
-					href="https://github.com/tropix126/fluent-svelte/edit/main/src/routes/docs{currentPage?.path ||
+					href="https://github.com/RiversideValley/Fluid.Framework/edit/main/src/routes/docs{currentPage?.path ||
 						'/index'}.md"
 					rel="noreferrer noopener"
 					target="_blank"

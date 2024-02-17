@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { createEventForwarder } from "fluent-svelte/internal";
+	import { createEventForwarder } from "@riversidevalley/fluid/internal";
 	import { get_current_component } from "svelte/internal";
 
 	/** Indicates the severity color of the badge. */
@@ -22,7 +22,7 @@
 
 <!--
 @component
-InfoBadges are a non-intrusive and intuitive way to display notifications or bring focus to an area within an app - whether that be for notifications, indicating new content, or showing an alert. [Docs](https://fluent-svelte.vercel.app/docs/components/infobadge)
+InfoBadges are a non-intrusive and intuitive way to display notifications or bring focus to an area within an app - whether that be for notifications, indicating new content, or showing an alert. [Docs](https://fluidui.vercel.app/docs/components/infobadge)
 - Usage:
     ```tsx
     <InfoBadge />

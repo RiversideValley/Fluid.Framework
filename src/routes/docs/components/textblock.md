@@ -8,7 +8,7 @@
 The TextBlock control renders a block of text in a given style depending on it's indended purpose in the layout. As the visual representation of language, TextBlock’s main task is to communicate information. Its style should never get in the way of that goal.
 
 ```ts
-import { TextBlock } from "fluent-svelte";
+import { TextBlock } from "@riversidevalley/fluid";
 ```
 
 <Showcase repl="9354fe2253804088b23e4dc9a882fa24" columns={3}>

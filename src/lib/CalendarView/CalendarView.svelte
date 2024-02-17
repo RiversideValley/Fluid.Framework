@@ -484,7 +484,7 @@
 
 <!--
 @component
-A calendar view lets a user view and interact with a calendar that they can navigate by month, year, or decade. A user can select a single date or multiple dates. [Docs](https://fluent-svelte.vercel.app/docs/components/calendarview)
+A calendar view lets a user view and interact with a calendar that they can navigate by month, year, or decade. A user can select a single date or multiple dates. [Docs](https://fluidui.vercel.app/docs/components/calendarview)
 - Usage:
     ```tsx
     <CalendarView value={new Date(2022, 2, 14)} />

@@ -11,7 +11,7 @@
 A calendar view lets a user view and interact with a calendar that they can navigate by month, year, or decade. A user can select a single date or multiple dates.
 
 ```ts
-import { CalendarView } from "fluent-svelte";
+import { CalendarView } from "@riversidevalley/fluid";
 ```
 
 <Showcase style="block-size: 480px">
@@ -34,7 +34,7 @@ You can also use two-way binding to programatically work with the value of the c
 
 ```svelte example
 <script>
-	import { Button, CalendarView } from "fluent-svelte";
+	import { Button, CalendarView } from "@riversidevalley/fluid";
 
 	let value = new Date(); // The current date
 </script>
@@ -60,7 +60,7 @@ To allow the user to pick multiple dates at once, set the `multiple` property to
 
 ```svelte example hideScript
 <script>
-	import { CalendarView } from "fluent-svelte";
+	import { CalendarView } from "@riversidevalley/fluid";
 </script>
 
 <CalendarView multiple value={[new Date(2022, 2, 3), new Date(2022, 2, 4)]} />
@@ -78,7 +78,7 @@ In this example, the user will only be able to select dates in the year of 2020.
 
 ```svelte example hideScript
 <script>
-	import { CalendarView } from "fluent-svelte";
+	import { CalendarView } from "@riversidevalley/fluid";
 </script>
 
 <CalendarView min={new Date(2020, 0, 1)} max={new Date(2020, 11, 31)} />
@@ -92,7 +92,7 @@ If you only want the calendar to render in a specific locale, you can pass in a 
 
 ```svelte example hideScript
 <script>
-	import { CalendarView } from "fluent-svelte";
+	import { CalendarView } from "@riversidevalley/fluid";
 </script>
 
 <CalendarView locale="ja-JP" />
@@ -102,7 +102,7 @@ Many places additionally have different starting days of the week. The JavaScrip
 
 ```svelte example hideScript
 <script>
-	import { CalendarView } from "fluent-svelte";
+	import { CalendarView } from "@riversidevalley/fluid";
 </script>
 
 <!-- Week will start on Monday (1) instead of Sunday (0). -->
@@ -121,7 +121,7 @@ In this example, the user will be able to select all dates _except_ for March 7,
 
 ```svelte example hideScript
 <script>
-	import { CalendarView } from "fluent-svelte";
+	import { CalendarView } from "@riversidevalley/fluid";
 </script>
 
 <CalendarView
@@ -172,7 +172,7 @@ You can choose display indicator labels for the first day of a month, or first m
 
 ```svelte example hideScript
 <script>
-	import { CalendarView } from "fluent-svelte";
+	import { CalendarView } from "@riversidevalley/fluid";
 </script>
 
 <CalendarView headers />

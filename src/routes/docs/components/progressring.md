@@ -10,7 +10,7 @@
 ProgressRing provides visual feedback to to the user that a long-running operation is underway. It can mean that the user cannot interact with the app when the progress indicator is visible, and can also indicate how long the wait time might be.
 
 ```ts
-import { ProgressRing } from "fluent-svelte";
+import { ProgressRing } from "@riversidevalley/fluid";
 ```
 
 <Showcase repl="">
@@ -38,7 +38,7 @@ The `value` property takes in a number between `0` to `100` that represents the 
 
 ```svelte example hideScript
 <script>
-	import { ProgressRing } from "fluent-svelte";
+	import { ProgressRing } from "@riversidevalley/fluid";
 </script>
 
 <ProgressRing value={50} />
@@ -59,7 +59,7 @@ You can control the diameter of the ring in pixels by setting the `size` propert
 
 ```svelte example hideScript
 <script>
-	import { ProgressRing } from "fluent-svelte";
+	import { ProgressRing } from "@riversidevalley/fluid";
 </script>
 
 <ProgressRing size={64} />

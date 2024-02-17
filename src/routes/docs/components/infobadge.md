@@ -10,7 +10,7 @@
 InfoBadges are a non-intrusive and intuitive way to display notifications or bring focus to an area within an app - whether that be for notifications, indicating new content, or showing an alert.
 
 ```ts
-import { InfoBadge } from "fluent-svelte";
+import { InfoBadge } from "@riversidevalley/fluid";
 ```
 
 <Showcase repl="ce7c58c352e24e84ad6838663e6dcd4e" columns={5}>
@@ -42,7 +42,7 @@ The default badge glyph can be overrided with your own content. This can be usef
 
 ```svelte example hideScript
 <script>
-	import { InfoBadge } from "fluent-svelte";
+	import { InfoBadge } from "@riversidevalley/fluid";
 </script>
 
 <InfoBadge>99</InfoBadge>
