@@ -1,4 +1,4 @@
-# fluent-svelte Changelog
+# Fluid Changelog
 
 # 1.6.0
 - Corrected an issue with styling usage in `ProgressRing`.
@@ -26,7 +26,7 @@
 
 ## 1.4.1
 
--   **Breaking**: ComboBox now handles `value` differently. For more information, see [issue #25](https://github.com/Tropix126/fluent-svelte/issues/25).
+-   **Breaking**: ComboBox now handles `value` differently. For more information, see [issue #25](https://github.com/RiversideValley/Fluid.Framework/issues/25).
 -   Fixed a bug where `CalendarView` would throw an error if it wasn't initialized with a value.
 
 ## 1.4.0

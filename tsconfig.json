@@ -23,8 +23,8 @@
 		"allowJs": true,
 		"checkJs": true,
 		"paths": {
-			"fluent-svelte": ["src/lib"],
-			"fluent-svelte/*": ["src/lib/*"],
+			"@riversidevalley/fluid": ["src/lib"],
+			"@riversidevalley/fluid/*": ["src/lib/*"],
 			"$lib": ["src/lib"],
 			"$lib/*": ["src/lib/*"],
 			"$site": ["src/site"],
