@@ -24,18 +24,18 @@
 </script>
 
 <Metadata
-	title="Fluent Svelte"
-	description="A faithful implementation of Microsoft's Fluent Design System in Svelte."
+	title="Fluid"
+	description="A UI framework for web based on Microsoft Fluent UI 🎨🏗️"
 />
 
 <PageSection id="hero-section">
 	<div class="hero-contents">
-		<h1>Fluent Svelte</h1>
-		<p>A faithful implementation of Microsoft's Fluent Design System in Svelte.</p>
+		<h1>Fluid Framework</h1>
+		<p>A UI framework for web based on Microsoft Fluent UI 🎨🏗️</p>
 		<div class="buttons-spacer">
 			<Button variant="accent" href="/docs">Get Started</Button>
 			<Button
-				href="https://github.com/tropix126/fluent-svelte"
+				href="https://github.com/RiversideValley/Fluid.Framework"
 				target="_blank"
 				rel="noreferrer noopener">Source Code</Button
 			>
